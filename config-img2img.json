@@ -1,0 +1,34 @@
+{
+    "Low denoising ------- 512x512, denoising: 0.25, steps: 10, DPM++ 2M Karras": {
+        "img2img_sampling": "DPM++ 2M Karras",
+        "img2img_steps": 10,
+        "img2img_width": 512,
+        "img2img_height": 512,
+        "img2img_denoising_strength": 0.25
+    },
+    "Medium denoising -- 512x512, denoising: 0.50, steps: 15, DPM++ 2M Karras": {
+        "img2img_sampling": "DPM++ 2M Karras",
+        "img2img_steps": 15,
+        "img2img_width": 512,
+        "img2img_height": 512,
+        "img2img_denoising_strength": 0.5
+    },
+    "High denoising ------- 512x512, denoising: 0.75, steps: 20, DPM++ 2M Karras": {
+        "img2img_sampling": "DPM++ 2M Karras",
+        "img2img_steps": 20,
+        "img2img_width": 512,
+        "img2img_height": 512,
+        "img2img_denoising_strength": 0.75
+    },
+    "image": {
+        "img2img_sampling": "DPM adaptive",
+        "img2img_steps": 24,
+        "img2img_width": 1344,
+        "img2img_height": 1088,
+        "img2img_batch_count": 1,
+        "img2img_batch_size": 1,
+        "img2img_cfg_scale": 9,
+        "img2img_denoising_strength": 0.2,
+        "img2img_restore_faces": false
+    }
+}
